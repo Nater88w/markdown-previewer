@@ -6,7 +6,7 @@ export default function Editor({set,text}){
        }
     return(
         <div className="edit">
-            <div className="header"><b>Edit</b></div>
+            <div className="header"><b>Editor</b></div>
             <textarea id='editor' defaultValue={text} onInput={type} rows='10' cols='40'></textarea>
         </div>
     )

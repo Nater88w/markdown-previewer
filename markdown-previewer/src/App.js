@@ -7,10 +7,10 @@ function App() {
   const [text,setText]= useState(initialText);
   
   return (
-    <>
+    <div id='page'>
     <Editor text={text} set={setText} />
     <Previewer text={text} />
-    </>
+    </div>
   );
 }
 

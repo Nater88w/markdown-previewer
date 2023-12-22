@@ -1,37 +1,58 @@
 *{
   margin: 0px;
   padding:0px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 body{
   background-color: #37bc9b;
+  padding:20px;
+  line-height:2;
+}
+#page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .edit{
+  align-self: center;
   display:flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 500px;
   padding:10px;
+  
 }
 #editor{
   width:99%;
   resize: vertical;
   background-color: #48cfad;
+  box-shadow: 10px 10px 10px;
+  padding-left:10px;
+  min-height:200px;
 }
 .header{
-  width:99%;
+  width:98.5%;
   background-color: rgb(70, 204, 159);
-  border-style: ridge;
+  border-style: inset;
+  box-shadow: 10px 10px 10px;
+  padding-left:10px;
 }
 #preview{
+  align-self: center;
   max-width: 800px;
-  margin-left: auto;
-  margin-right:auto;
-  border-style: ridge;
+  border-style: inset;
   overflow-wrap: break-word;
-  padding:0 1rem;
+  padding:30px;
   text-wrap:wrap;
   background-color: #48cfad;
+  box-shadow: 10px 10px 10px;
+}
+#preview img{
+  max-width: 90%;
+}
+pre{
+  background-color: white;
+  padding:10px
 }
