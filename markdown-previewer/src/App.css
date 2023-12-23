@@ -20,9 +20,8 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding:10px;
   width:100%;
-  
+  margin-bottom:10px;
 }
 #editor{
   width:80%;
