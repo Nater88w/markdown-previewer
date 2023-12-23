@@ -20,24 +20,29 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 500px;
   padding:10px;
+  width:100%;
   
 }
 #editor{
-  width:99%;
+  width:80%;
   resize: vertical;
   background-color: #48cfad;
   box-shadow: 10px 10px 10px;
   padding-left:10px;
-  min-height:200px;
+ height:200px;
+ min-height: 200px;
 }
 .header{
-  width:98.5%;
+  width:80%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(70, 204, 159);
   border-style: inset;
   box-shadow: 10px 10px 10px;
   padding-left:10px;
+  padding-right: 6px;
 }
 #preview{
   align-self: center;
@@ -48,11 +53,12 @@ body{
   text-wrap:wrap;
   background-color: #48cfad;
   box-shadow: 10px 10px 10px;
+  width:98%;
 }
 #preview img{
   max-width: 90%;
 }
 pre{
   background-color: white;
-  padding:10px
+  padding:10px;
 }
